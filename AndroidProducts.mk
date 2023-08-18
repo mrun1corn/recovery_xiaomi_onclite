@@ -5,9 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_onclite.mk
-
-COMMON_LUNCH_CHOICES := \
-    twrp_onclite-user \
-    twrp_onclite-userdebug \
-    twrp_onclite-eng
+    $(LOCAL_DIR)/omni_onclite.mk

@@ -8,6 +8,7 @@
 include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/onclite
+ALLOW_MISSING_DEPENDENCIES=true
 
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 1
@@ -32,6 +33,7 @@ TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
 
 # TWRP
 #TW_MAX_BRIGHTNESS := 4095
+#TW_H_OFFSET := -60
+#TW_Y_OFFSET := 60
+TW_THEME := portrait_hdpi
 
-TW_H_OFFSET := -60
-TW_Y_OFFSET := 60

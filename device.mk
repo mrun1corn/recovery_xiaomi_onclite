@@ -13,3 +13,7 @@ $(call inherit-product, device/xiaomi/mithorium-common/mithorium.mk)
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+#Display_size
+TARGET_SCREEN_HEIGHT := 1520
+TARGET_SCREEN_WIDTH := 720
